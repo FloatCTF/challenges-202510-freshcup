@@ -1,22 +1,27 @@
 [
   {
     "name": "base64",
-    "id": "00e215b5-2e63-4e84-a040-adb40f8a43ac"
+    "id": "00e215b5-2e63-4e84-a040-adb40f8a43ac",
+    "category": "Crypto"
   },
   {
     "name": "comment",
-    "id": "f07348da-ec5a-4a75-87b1-2363bcc2c28a"
+    "id": "f07348da-ec5a-4a75-87b1-2363bcc2c28a",
+    "category": "Web"
   },
   {
     "name": "dir_enum",
-    "id": "48ae5d10-bf52-4a1b-bb9b-a3e3422ec68a"
+    "id": "48ae5d10-bf52-4a1b-bb9b-a3e3422ec68a",
+    "category": "Web"
   },
   {
     "name": "learn_http",
-    "id": "aea40542-98df-4a3c-833f-ce2e8d2a9fd8"
+    "id": "aea40542-98df-4a3c-833f-ce2e8d2a9fd8",
+    "category": "Web"
   },
   {
     "name": "png",
-    "id": "032db0b5-c401-4172-a39f-ee9b6b57fe45"
+    "id": "032db0b5-c401-4172-a39f-ee9b6b57fe45",
+    "category": "Misc"
   }
 ]
