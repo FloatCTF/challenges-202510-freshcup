@@ -75,7 +75,13 @@ if __name__ == "__main__":
         result = []
         challenges_data = resp_json["data"]
         for challenge in challenges_data:
-            result.append({"name": challenge["name"], "id": challenge["id"]})
+            result.append(
+                {
+                    "name": challenge["name"],
+                    "id": challenge["id"],
+                    "category": challenge["category"],
+                }
+            )
         with open("challenges.json", "w", encoding="utf-8") as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
         print("Import Successfully, result in challenges.json")
