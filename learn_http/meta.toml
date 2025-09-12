@@ -1,0 +1,14 @@
+name = "learn_http"
+author = "fb0sh@outlook.com"
+category = "Web"
+description = "HTTP Protocol"
+
+
+[flag]
+value = ""       # is empty stand for dynamic flag
+env_var = "FLAG"
+
+
+[docker]
+image_tag = "learn_http:latest"
+port = "80/tcp"

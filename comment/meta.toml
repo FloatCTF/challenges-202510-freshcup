@@ -1,0 +1,14 @@
+name = "comment"
+author = "fb0sh@outlook.com"
+category = "Web"
+description = "注释里面有什么？"
+
+
+[flag]
+value = ""       # is empty stand for dynamic flag
+env_var = "FLAG"
+
+
+[docker]
+image_tag = "comment:latest"
+port = "80/tcp"
