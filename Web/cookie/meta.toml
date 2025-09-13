@@ -1,0 +1,14 @@
+name = "cookie"
+author = "myx2727461997@gmail.com"
+category = "Web"
+description = """
+想成为管理员吗？也许你需要一个特殊的饼干！
+"""
+
+[flag]
+value = ""
+env_var = "FLAG"
+
+[docker]
+image_tag = "cookie:latest"
+port = "80/tcp"
