@@ -8,9 +8,10 @@ COPY s3cr3t_b4ckd00r.html /usr/share/nginx/html/
 COPY flag.sh /flag.sh
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# 设置权限并执行 flag 脚本
-RUN chmod +x /flag.sh && sh /flag.sh
+# 转换行结束符并设置权限
+RUN sed -i 's/\r$//' /flag.sh && chmod +x /flag.sh
 
 EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"]
+# 在容器启动时执行 flag 替换，然后启动 nginx
+CMD ["/bin/sh", "-c", "/flag.sh && nginx -g 'daemon off;'"]

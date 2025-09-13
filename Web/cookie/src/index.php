@@ -150,7 +150,7 @@ $username = $_COOKIE['username'] ?? 'Anonymous';
                 <p>你成功获得了管理员权限！</p>
             </div>
             <div class="flag">
-                floatctf{c00k13s_4r3_n0t_s3cur3}
+                flag{test_flag}
             </div>
         <?php else: ?>
             <div class="message error">
