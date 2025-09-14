@@ -84,8 +84,8 @@ def generate_challenges_table():
     md_content += "| 题目名称 | 分类 | 作者 | 描述 |\n"
     md_content += "|---------|------|------|------|\n"
 
-    # 按分类排序
-    challenges.sort(key=lambda x: (x["category"], x["name"]))
+    # 按分类、作者邮箱、名称排序
+    challenges.sort(key=lambda x: (x["category"], x["author"], x["name"]))
 
     for challenge in challenges:
         # 转义描述中的管道符
