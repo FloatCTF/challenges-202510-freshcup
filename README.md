@@ -1,4 +1,7 @@
 # 2025 FloatCTF 新生赛题目仓库
+
+<challenges>
+
 ## Challenges
 | 题目名称 | 分类 | 作者 | 描述 |
 |---------|------|------|------|
@@ -13,6 +16,7 @@
 | learn_http | Web | fb0sh@outlook.com | HTTP Protocol |
 | robots | Web | myx2727461997@gmail.com | 听说搜索引擎的爬虫都会先看 robots.txt 文件？ |
 
+</challenges>
 
 **相关链接**：
 

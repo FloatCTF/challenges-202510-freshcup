@@ -79,8 +79,8 @@ def generate_challenges_table():
             print(f"读取目录 {category_dir} 时出错: {e}")
             continue
 
-    # 生成Markdown表格
-    md_content = "# Challenges\n\n"
+    # 生成Markdown表格（不包含标题）
+    md_content = "## Challenges\n"
     md_content += "| 题目名称 | 分类 | 作者 | 描述 |\n"
     md_content += "|---------|------|------|------|\n"
 
@@ -95,15 +95,74 @@ def generate_challenges_table():
     return md_content
 
 
+def update_readme_with_challenges():
+    """更新README.md文件中的挑战表格"""
+    # 生成挑战表格
+    challenges_table = generate_challenges_table()
+
+    # 读取README.md文件
+    try:
+        with open("README.md", "r", encoding="utf-8") as f:
+            readme_content = f.read()
+    except Exception as e:
+        print(f"读取README.md时出错: {e}")
+        return False
+
+    # 替换<challenges>标签之间的内容
+    try:
+        start_tag = "<challenges>"
+        end_tag = "</challenges>"
+
+        start_index = readme_content.find(start_tag)
+        end_index = readme_content.find(end_tag)
+
+        if start_index == -1 or end_index == -1:
+            print("未找到<challenges>标签")
+            return False
+
+        # 确保结束标签在开始标签之后
+        if end_index <= start_index:
+            print("标签位置不正确")
+            return False
+
+        # 替换标签之间的内容（保留标签）
+        new_content = (
+            readme_content[: start_index + len(start_tag)]
+            + "\n\n"
+            + challenges_table
+            + "\n"
+            + readme_content[end_index:]
+        )
+
+        # 写入更新后的内容
+        with open("README.md", "w", encoding="utf-8") as f:
+            f.write(new_content)
+
+        print("README.md 文件已更新！")
+        return True
+    except Exception as e:
+        print(f"更新README.md时出错: {e}")
+        return False
+
+
 def main():
     """主函数"""
+    # 生成challenges.md文件
     md_content = generate_challenges_table()
 
     # 写入文件
     with open("challenges.md", "w", encoding="utf-8") as f:
-        f.write(md_content)
+        # 只写入表格部分，不包含标题
+        table_content = md_content.split("\n", 1)[1]  # 去掉第一行标题
+        f.write("# Challenges\n\n" + table_content)
 
     print("challenges.md 文件已生成！")
+
+    # 更新README.md文件
+    if update_readme_with_challenges():
+        print("README.md 文件已更新！")
+    else:
+        print("更新 README.md 文件时出错！")
 
 
 if __name__ == "__main__":
