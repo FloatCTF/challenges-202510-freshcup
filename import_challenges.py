@@ -80,6 +80,7 @@ if __name__ == "__main__":
                     "name": challenge["name"],
                     "id": challenge["id"],
                     "category": challenge["category"],
+                    "description": challenge["description"],
                 }
             )
         with open("challenges.json", "w", encoding="utf-8") as f:
