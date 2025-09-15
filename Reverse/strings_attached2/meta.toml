@@ -3,6 +3,7 @@ author = "ablklice@gmail.com"
 category = "Reverse"
 description = "和strings_attached1加密算法一样，但好像又有一些不同"
 
+attachment = "attachment/strings_attached2.exe"
 
 [flag]
 value = "flag{YOU_FIND_IT_HAHA}"       # is empty stand for dynamic flag
