@@ -7,6 +7,8 @@
 |---------|------|------|------|
 | base64 | Crypto | fb0sh@outlook.com | ZmxhZ3tiMWQxZmNmNy01NzQyLTQ0OTctODYwOC1iZGU1NDlmMWQ1MmV9 |
 | caesar | Crypto | myx2727461997@gmail.com | 凯撒大帝的秘密信息！  密文：iordwfwi{fdhvdu_flskhu_lv_hdvb}  提示1：这是最古老的加密方法之一 提示2：凯撒密码的位移量通常在 1-25 之间 提示3：试试往回移动 3 位 |
+| ctf_start | Misc | ablklice@gmail.com | 这图片好像缺点什么 |
+| miku_flag | Misc | ablklice@gmail.com | 这图片好像缺点什么 |
 | png | Misc | fb0sh@outlook.com | 图片里面有什么 |
 | easy_reverse | Reverse | ablklice@gmail.com | 使用tea算法进行解密,答案使用flag{}进行包裹 |
 | strings_attached1 | Reverse | ablklice@gmail.com | 找到了一串字符串，要用什么算法解密呢 |
