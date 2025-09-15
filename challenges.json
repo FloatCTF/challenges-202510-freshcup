@@ -64,5 +64,17 @@
     "id": "b8acae71-bbb5-408a-845d-e63efba6b0c1",
     "category": "Web",
     "description": "听说搜索引擎的爬虫都会先看 robots.txt 文件？"
+  },
+  {
+    "name": "strings_attached1",
+    "id": "2bfac668-4964-4625-b16e-3841de3db984",
+    "category": "Reverse",
+    "description": "找到了一串字符串，要用什么算法解密呢"
+  },
+  {
+    "name": "strings_attached2",
+    "id": "a7fb62b8-3b53-41b5-aa06-e2db55e5e96c",
+    "category": "Reverse",
+    "description": "和strings_attached1加密算法一样，但好像又有一些不同"
   }
 ]
