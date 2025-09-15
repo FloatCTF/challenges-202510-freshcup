@@ -1,27 +1,80 @@
 [
   {
+    "name": "backdoor",
+    "id": "4666387e-6b64-47a7-aac6-98aefe1fc906",
+    "category": "Web",
+    "description": "php backdoor"
+  },
+  {
     "name": "base64",
     "id": "00e215b5-2e63-4e84-a040-adb40f8a43ac",
-    "category": "Crypto"
+    "category": "Crypto",
+    "description": "ZmxhZ3tiMWQxZmNmNy01NzQyLTQ0OTctODYwOC1iZGU1NDlmMWQ1MmV9"
+  },
+  {
+    "name": "caesar",
+    "id": "b532cdd4-2dcc-4da9-9113-a7cf1f795216",
+    "category": "Crypto",
+    "description": "凯撒大帝的秘密信息！\r\n\r\n密文：iordwfwi{fdhvdu_flskhu_lv_hdvb}\r\n\r\n提示1：这是最古老的加密方法之一\r\n提示2：凯撒密码的位移量通常在 1-25 之间\r\n提示3：试试往回移动 3 位\r\n"
   },
   {
     "name": "comment",
     "id": "f07348da-ec5a-4a75-87b1-2363bcc2c28a",
-    "category": "Web"
+    "category": "Web",
+    "description": "注释里面有什么？"
+  },
+  {
+    "name": "cookie",
+    "id": "4f10212c-db63-4468-87d4-2ea41595e443",
+    "category": "Web",
+    "description": "想成为管理员吗？也许你需要一个特殊的饼干！\r\n"
   },
   {
     "name": "dir_enum",
     "id": "48ae5d10-bf52-4a1b-bb9b-a3e3422ec68a",
-    "category": "Web"
+    "category": "Web",
+    "description": "想必你一定知道什么是目录扫描吧"
+  },
+  {
+    "name": "easy_reverse",
+    "id": "07577971-b78c-42be-985f-83b16996fa45",
+    "category": "Reverse",
+    "description": "使用tea算法进行解密,答案使用flag{}进行包裹"
+  },
+  {
+    "name": "frontend_bypass",
+    "id": "d1153faa-4ea8-4e05-b542-829cef069b9e",
+    "category": "Web",
+    "description": "前端绕过"
   },
   {
     "name": "learn_http",
     "id": "aea40542-98df-4a3c-833f-ce2e8d2a9fd8",
-    "category": "Web"
+    "category": "Web",
+    "description": "HTTP Protocol"
   },
   {
     "name": "png",
     "id": "032db0b5-c401-4172-a39f-ee9b6b57fe45",
-    "category": "Misc"
+    "category": "Misc",
+    "description": "图片里面有什么"
+  },
+  {
+    "name": "robots",
+    "id": "b8acae71-bbb5-408a-845d-e63efba6b0c1",
+    "category": "Web",
+    "description": "听说搜索引擎的爬虫都会先看 robots.txt 文件？"
+  },
+  {
+    "name": "strings_attached1",
+    "id": "2bfac668-4964-4625-b16e-3841de3db984",
+    "category": "Reverse",
+    "description": "找到了一串字符串，要用什么算法解密呢"
+  },
+  {
+    "name": "strings_attached2",
+    "id": "a7fb62b8-3b53-41b5-aa06-e2db55e5e96c",
+    "category": "Reverse",
+    "description": "和strings_attached1加密算法一样，但好像又有一些不同"
   }
 ]
