@@ -6,7 +6,7 @@ COPY ./files /tmp/
 RUN cp -rf /tmp/html /var/www/ \
     && cp -f /tmp/flag.sh /flag.sh \
     && chown -R www-data:www-data /var/www/html \
-    && chmod -x /flag.sh
+    && chmod +x /flag.sh
     
 WORKDIR /var/www/html
 
