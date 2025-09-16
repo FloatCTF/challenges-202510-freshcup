@@ -3,7 +3,6 @@
 <challenges>
 
 ## Challenges
-
 | 题目名称 | 分类 | 作者 | 描述 |
 |---------|------|------|------|
 | base64 | Crypto | fb0sh@outlook.com | ZmxhZ3tiMWQxZmNmNy01NzQyLTQ0OTctODYwOC1iZGU1NDlmMWQ1MmV9 |
@@ -21,7 +20,6 @@
 | learn_http | Web | fb0sh@outlook.com | HTTP Protocol |
 | cookie | Web | myx2727461997@gmail.com | 想成为管理员吗？也许你需要一个特殊的饼干！ |
 | robots | Web | myx2727461997@gmail.com | 听说搜索引擎的爬虫都会先看 robots.txt 文件？ |
-
 
 </challenges>
 
