@@ -2,7 +2,7 @@ name = "backdoor"
 author = "fb0sh@outlook.com"
 category = "Web"
 description = "php backdoor"
-
+points = 200.0               # for event
 
 [flag]
 value = ""       # is empty stand for dynamic flag

@@ -219,6 +219,7 @@ name = "base64"
 author = "admin@ctf.com"
 category = "Crypto"
 description = "ZmxhZ3tiYXNlNjRfaXNfZnVufQ=="
+points = 100.0 # for event
 
 [flag]
 value = "flag{base64_is_fun}"
@@ -233,6 +234,7 @@ name = "stego"
 author = "admin@ctf.com"
 category = "Misc"
 description = "图片里面藏着秘密"
+points = 100.0 # for event
 
 attachment = "attachment/secret.png"
 
@@ -249,6 +251,7 @@ name = "sqli"
 author = "admin@ctf.com"
 category = "Web"
 description = "简单的 SQL 注入"
+points = 100.0 # for event
 
 [flag]
 value = ""  # 动态 flag
