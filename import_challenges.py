@@ -5,7 +5,7 @@ import json
 
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = "admin"
-ADMIN_API_ENDPOINT = "http://127.0.0.1:9090/api/admin"
+ADMIN_API_ENDPOINT = "http://120.95.81.151/api/admin"
 
 CHALLENGES_CATEGORY_DIRS = ["./Web", "./Crypto", "./Misc", "./Pwn", "./Reverse"]
 CHALLENGES_CATEGORY_PATHS = [Path(p) for p in CHALLENGES_CATEGORY_DIRS]

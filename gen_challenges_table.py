@@ -3,6 +3,7 @@
 脚本用于生成 challenges.md 文件，其中包含所有题目的信息表格
 """
 
+import urllib.parse
 import os
 import sys
 
@@ -88,9 +89,17 @@ def generate_challenges_table():
     challenges.sort(key=lambda x: (x["category"], x["author"], x["name"]))
 
     for challenge in challenges:
-        # 转义描述中的管道符
         description = challenge["description"].replace("|", "\\|")
-        md_content += f"| {challenge['name']} | {challenge['category']} | {challenge['author']} | {description} |\n"
+
+        safe_name = urllib.parse.quote(challenge["name"])
+        safe_category = urllib.parse.quote(challenge["category"])
+
+        # 链接文字中的单引号替换为 &#39;
+        display_name = challenge["name"].replace("'", "&#39;")
+
+        link = f"[{display_name}]({safe_category}/{safe_name}/meta.toml)"
+
+        md_content += f"| {link} | {challenge['category']} | {challenge['author']} | {description} |\n"
 
     return md_content
 
