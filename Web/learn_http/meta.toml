@@ -2,7 +2,7 @@ name = "learn_http"
 author = "fb0sh@outlook.com"
 category = "Web"
 description = "HTTP Protocol"
-
+points = 150.0                # for event
 
 [flag]
 value = ""       # is empty stand for dynamic flag
