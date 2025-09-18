@@ -2,7 +2,7 @@ name = "comment"
 author = "fb0sh@outlook.com"
 category = "Web"
 description = "注释里面有什么？"
-
+points = 100.0               # for event
 
 [flag]
 value = ""       # is empty stand for dynamic flag

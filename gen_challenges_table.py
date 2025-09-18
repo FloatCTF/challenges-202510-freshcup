@@ -37,10 +37,9 @@ def read_meta_toml(challenge_path):
         author = meta_data.get("author", "")
         category = meta_data.get("category", "")
         description = meta_data.get("description", "")
+        points = meta_data.get("points", 0)  # 新增
 
-        # 如果description是多行字符串，将其转换为单行
         if isinstance(description, str):
-            # 将换行符替换为空格
             description = " ".join(description.splitlines())
 
         return {
@@ -48,6 +47,7 @@ def read_meta_toml(challenge_path):
             "author": author,
             "category": category,
             "description": description,
+            "points": points,  # 新增
         }
     except Exception as e:
         print(f"读取 {meta_path} 时出错: {e}")
@@ -82,24 +82,22 @@ def generate_challenges_table():
 
     # 生成Markdown表格（不包含标题）
     md_content = "## Challenges\n"
-    md_content += "| 题目名称 | 分类 | 作者 | 描述 |\n"
-    md_content += "|---------|------|------|------|\n"
-
+    md_content += "| 题目名称 | 分类 | 分值 | 作者 | 描述 |\n"
+    md_content += "|---------|------|------|------|------|\n"
     # 按分类、作者邮箱、名称排序
     challenges.sort(key=lambda x: (x["category"], x["author"], x["name"]))
 
     for challenge in challenges:
         description = challenge["description"].replace("|", "\\|")
-
         safe_name = urllib.parse.quote(challenge["name"])
         safe_category = urllib.parse.quote(challenge["category"])
-
-        # 链接文字中的单引号替换为 &#39;
         display_name = challenge["name"].replace("'", "&#39;")
-
         link = f"[{display_name}]({safe_category}/{safe_name}/meta.toml)"
 
-        md_content += f"| {link} | {challenge['category']} | {challenge['author']} | {description} |\n"
+        md_content += (
+            f"| {link} | {challenge['category']} | {challenge['points']} "
+            f"| {challenge['author']} | {description} |\n"
+        )
 
     return md_content
 

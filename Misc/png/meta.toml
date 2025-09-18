@@ -2,7 +2,7 @@ name = "png"
 author = "fb0sh@outlook.com"
 category = "Misc"
 description = "图片里面有什么"
-
+points = 50.0 # for event
 
 attachment = "attachment/fr33t.png"
 
