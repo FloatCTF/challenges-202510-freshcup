@@ -10,6 +10,7 @@ description = """
 提示2：凯撒密码的位移量通常在 1-25 之间
 提示3：试试往回移动 3 位
 """
+points = 50.0
 
 [flag]
 value = "floatctf{caesar_cipher_is_easy}"

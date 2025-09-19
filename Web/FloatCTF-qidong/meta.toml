@@ -2,6 +2,7 @@ name = "FloatCTF-qidong"
 author = "myx2727461997@gmail.com"
 category = "Web"
 description = "大喊FloatCTF启动来获得flag吧"
+points = 100.0
 
 [flag]
 value = ""
