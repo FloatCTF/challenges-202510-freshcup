@@ -14,7 +14,7 @@
 | [easy_reverse](Reverse/easy_reverse/meta.toml) | Reverse | 0 | ablklice@gmail.com | 使用tea算法进行解密,答案使用flag{}进行包裹 |
 | [strings_attached1](Reverse/strings_attached1/meta.toml) | Reverse | 0 | ablklice@gmail.com | 找到了一串字符串，要用什么算法解密呢 |
 | [strings_attached2](Reverse/strings_attached2/meta.toml) | Reverse | 0 | ablklice@gmail.com | 和strings_attached1加密算法一样，但好像又有一些不同 |
-| [frontend_bypass](Web/frontend_bypass/meta.toml) | Web | 0 | ablklice@gmail.com | 前端绕过 |
+| [frontend_bypass](Web/frontend_bypass/meta.toml) | Web | 50.0 | ablklice@gmail.com | 前端绕过 |
 | [backdoor](Web/backdoor/meta.toml) | Web | 200.0 | fb0sh@outlook.com | php backdoor |
 | [comment](Web/comment/meta.toml) | Web | 100.0 | fb0sh@outlook.com | 注释里面有什么？ |
 | [dir_enum](Web/dir_enum/meta.toml) | Web | 200.0 | fb0sh@outlook.com | 想必你一定知道什么是目录扫描吧 |
