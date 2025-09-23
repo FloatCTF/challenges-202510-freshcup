@@ -4,6 +4,7 @@ category = "Web"
 description = """
 想成为管理员吗？也许你需要一个特殊的饼干！
 """
+points = 50.0
 
 [flag]
 value = ""
