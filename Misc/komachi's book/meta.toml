@@ -2,7 +2,7 @@ name = "komachi's book"
 author = "hakureiyukari01@gmail.com"
 category = "misc"
 description = "小町摸鱼时会写小说,她可能会将小说变成zip包来存储"
-
+points = 50.0
 
 attachment = "attachment/book.docx"
 
