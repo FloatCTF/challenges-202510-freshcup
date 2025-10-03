@@ -1,5 +1,12 @@
 # Challenges
 
+| 分类 | 题目数量 |
+|------|----------|
+| Crypto | 3 |
+| Misc | 7 |
+| Reverse | 3 |
+| Web | 9 |
+## Challenges
 | 题目名称 | 分类 | 分值 | 作者 | 描述 |
 |---------|------|------|------|------|
 | [base64](Crypto/base64/meta.toml) | Crypto | 50.0 | fb0sh@outlook.com | ZmxhZ3tiMWQxZmNmNy01NzQyLTQ0OTctODYwOC1iZGU1NDlmMWQ1MmV9 |
@@ -9,8 +16,9 @@
 | [ctf_start](Misc/ctf_start/meta.toml) | Misc | 50.0 | ablklice@gmail.com | 这图片好像缺点什么 |
 | [miku_flag](Misc/miku_flag/meta.toml) | Misc | 50.0 | ablklice@gmail.com | 这图片好像缺点什么 |
 | [png](Misc/png/meta.toml) | Misc | 50.0 | fb0sh@outlook.com | 图片里面有什么 |
-| [Cirno&#39;s perfect math class](Misc/Cirno%27s%20perfect%20math%20class/meta.toml) | Misc | 50.0 | hakureiyukari01@gmail.com | 琪露诺发现幻想乡巴士里有base编码 |
-| [Orin&#39;s pack](Misc/Orin%27s%20pack/meta.toml) | Misc | 50.0 | hakureiyukari01@gmail.com | 阿燐在她的猫车中找到一个神秘压缩包 |
+| [Cirno&#39;s perfect math class](Misc/Cirno%27s%20perfect%20math%20class/meta.toml) | Misc | 0 | hakureiyukari01@gmail.com | 琪露诺发现幻想乡巴士里有base编码 |
+| [Orin&#39;s pack](Misc/Orin%27s%20pack/meta.toml) | Misc | 0 | hakureiyukari01@gmail.com | 阿燐在她的猫车中找到一个神秘压缩包 |
+| [komachi&#39;s book](Misc/komachi%27s%20book/meta.toml) | Misc | 0 | hakureiyukari01@gmail.com | 小町摸鱼时会写小说,她可能会将小说变成zip包来存储 |
 | [Flag_in_the_model](Misc/Flag_in_the_model/meta.toml) | Misc | 100.0 | myx2727461997@gmail.com | .pt？这是什么后缀名？ |
 | [Hajimi](Pwn/Hajimi/meta.toml) | Pwn | 50.0 | myx2727461997@gmail.com | 我是耄耋，我还活着，拿nc拯救我吧，哈！！！ |
 | [easy_reverse](Reverse/easy_reverse/meta.toml) | Reverse | 200.0 | ablklice@gmail.com | 使用tea算法进行解密,答案使用flag{}进行包裹 |
@@ -25,4 +33,3 @@
 | [FloatCTF-qidong](Web/FloatCTF-qidong/meta.toml) | Web | 100.0 | myx2727461997@gmail.com | 大喊FloatCTF启动来获得flag吧 |
 | [cookie](Web/cookie/meta.toml) | Web | 50.0 | myx2727461997@gmail.com | 想成为管理员吗？也许你需要一个特殊的饼干！ |
 | [robots](Web/robots/meta.toml) | Web | 50.0 | myx2727461997@gmail.com | 听说搜索引擎的爬虫都会先看 robots.txt 文件？ |
-| [komachi&#39;s book](misc/komachi%27s%20book/meta.toml) | misc | 50.0 | hakureiyukari01@gmail.com | 小町摸鱼时会写小说,她可能会将小说变成zip包来存储 |
