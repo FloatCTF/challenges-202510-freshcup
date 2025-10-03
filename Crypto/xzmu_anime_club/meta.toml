@@ -2,7 +2,7 @@ name = "xzmu_anime_club"
 author = "hakureiyukari01@gmail.com"
 category = "Crypto"
 description = "这里是西藏民族大学动漫社，欢迎来玩"
-
+points = 50.0
 
 attachment = "attachment/xzmu.txt"
 
