@@ -6,6 +6,7 @@
 import urllib.parse
 import os
 import sys
+from collections import Counter
 
 # 尝试导入tomllib (Python 3.11+) 或 tomli
 try:
@@ -18,7 +19,7 @@ except ImportError:
         sys.exit(1)
 
 # 定义挑战目录
-CHALLENGES_CATEGORY_DIRS = ["./Web", "./Crypto", "./Misc", "./Pwn", "./Reverse"]
+CHALLENGES_CATEGORY_DIRS = ["./Web", "./Crypto", "./Misc", "./Pwn", "./Reverse", "./AI"]
 
 
 def read_meta_toml(challenge_path):
@@ -79,9 +80,21 @@ def generate_challenges_table():
         except Exception as e:
             print(f"读取目录 {category_dir} 时出错: {e}")
             continue
+    # 按分类、作者邮箱、名称排序
+    challenges.sort(key=lambda x: (x["category"], x["author"], x["name"]))
+
+    # ---------- 新增：统计分类数量 ----------
+    category_counter = Counter([c["category"] for c in challenges])
+
+    # 生成分类统计表格
+    md_content = "## Category Summary\n"
+    md_content += "| 分类 | 题目数量 |\n"
+    md_content += "|------|----------|\n"
+    for cat, count in sorted(category_counter.items()):
+        md_content += f"| {cat} | {count} |\n"
 
     # 生成Markdown表格（不包含标题）
-    md_content = "## Challenges\n"
+    md_content += "## Challenges\n"
     md_content += "| 题目名称 | 分类 | 分值 | 作者 | 描述 |\n"
     md_content += "|---------|------|------|------|------|\n"
     # 按分类、作者邮箱、名称排序
