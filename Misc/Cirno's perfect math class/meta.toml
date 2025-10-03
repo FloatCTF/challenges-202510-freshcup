@@ -2,6 +2,7 @@ name = "Cirno's perfect math class"
 author = "hakureiyukari01@gmail.com"
 category = "Misc"
 description = "琪露诺发现幻想乡巴士里有base编码"
+points = 50.0
 
 
 attachment = "attachment/cpmc.zip"
