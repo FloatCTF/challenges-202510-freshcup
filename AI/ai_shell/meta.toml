@@ -1,6 +1,6 @@
 name = "AI_shell"
 author = "fb0sh@outlook.com"      # modify
-category = "Web"                  # modify
+category = "AI"                  # modify
 description = "这个执行命令小模型，会听你的话吗？" # modify
 
 
