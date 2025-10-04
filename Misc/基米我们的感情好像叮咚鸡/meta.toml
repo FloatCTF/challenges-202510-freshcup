@@ -1,0 +1,11 @@
+name = "基米我们的感情好像叮咚鸡"
+author = "fr33tcat@163.com"
+category = "Misc"
+description = "艾米丽带着对故乡的眷恋，踏上了一场寻根之旅。她留下一封寄语，藏在了一个看似普通的Word文档中，标题是“基米我们的感情好像叮咚鸡”。然而，细心的你发现，这份寄语的字里行间似乎隐藏着不可告人的秘密！可是“雪”飘进双眼，艾米丽的秘密在等着你层层揭开。你能解开所有谜团，找到完整的flag，唤醒那份关于故乡与友谊的温暖记忆吗？"
+points = 1000.0
+
+attachment = "attachment/基米我们的感情好像叮咚鸡.zip"
+
+[flag]
+value = "floatctf{55bdc09b-80de-035a-4532-a657f65320ab}"
+env_var = "FLAG"
