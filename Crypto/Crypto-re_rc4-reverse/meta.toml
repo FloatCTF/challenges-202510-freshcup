@@ -1,0 +1,11 @@
+name = "Crypto-re_rc4-reverse"
+author = "fr33tcat@163.com"
+category = "Crypto"
+description = "猜猜我是Cypto，还是Reverse吧！"
+points = 250.0
+
+attachment = "attachment/re_rc4.zip"
+
+[flag]
+value = "floatctf{r3v3rc3_rc4_3asy_w1n}"
+env_var = "FLAG"
