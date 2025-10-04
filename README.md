@@ -7,7 +7,7 @@
 |------|----------|
 | AI | 1 |
 | Crypto | 4 |
-| Misc | 7 |
+| Misc | 8 |
 | Pwn | 1 |
 | Reverse | 3 |
 | Web | 8 |
@@ -22,6 +22,7 @@
 | [ctf_start](Misc/ctf_start/meta.toml) | Misc | 50.0 | ablklice@gmail.com | 这图片好像缺点什么 |
 | [miku_flag](Misc/miku_flag/meta.toml) | Misc | 50.0 | ablklice@gmail.com | 这图片好像缺点什么 |
 | [png](Misc/png/meta.toml) | Misc | 50.0 | fb0sh@outlook.com | 图片里面有什么 |
+| [基米我们的感情好像叮咚鸡](Misc/%E5%9F%BA%E7%B1%B3%E6%88%91%E4%BB%AC%E7%9A%84%E6%84%9F%E6%83%85%E5%A5%BD%E5%83%8F%E5%8F%AE%E5%92%9A%E9%B8%A1/meta.toml) | Misc | 1000.0 | fr33tcat@163.com | 艾米丽带着对故乡的眷恋，踏上了一场寻根之旅。她留下一封寄语，藏在了一个看似普通的Word文档中，标题是“基米我们的感情好像叮咚鸡”。然而，细心的你发现，这份寄语的字里行间似乎隐藏着不可告人的秘密！可是“雪”飘进双眼，艾米丽的秘密在等着你层层揭开。你能解开所有谜团，找到完整的flag，唤醒那份关于故乡与友谊的温暖记忆吗？ |
 | [Cirno&#39;s perfect math class](Misc/Cirno%27s%20perfect%20math%20class/meta.toml) | Misc | 50.0 | hakureiyukari01@gmail.com | 琪露诺发现幻想乡巴士里有base编码 |
 | [Orin&#39;s pack](Misc/Orin%27s%20pack/meta.toml) | Misc | 50.0 | hakureiyukari01@gmail.com | 阿燐在她的猫车中找到一个神秘压缩包 |
 | [komachi&#39;s book](Misc/komachi%27s%20book/meta.toml) | Misc | 50.0 | hakureiyukari01@gmail.com | 小町摸鱼时会写小说,她可能会将小说变成zip包来存储 |
