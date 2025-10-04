@@ -6,7 +6,7 @@
 | 分类 | 题目数量 |
 |------|----------|
 | AI | 1 |
-| Crypto | 4 |
+| Crypto | 5 |
 | Misc | 8 |
 | Pwn | 1 |
 | Reverse | 3 |
@@ -16,6 +16,7 @@
 |---------|------|------|------|------|
 | [AI_shell](AI/AI_shell/meta.toml) | AI | 100.0 | fb0sh@outlook.com | 这个执行命令小模型，会听你的话吗？ |
 | [base64](Crypto/base64/meta.toml) | Crypto | 50.0 | fb0sh@outlook.com | ZmxhZ3tiMWQxZmNmNy01NzQyLTQ0OTctODYwOC1iZGU1NDlmMWQ1MmV9 |
+| [Crypto-re_rc4-reverse](Crypto/Crypto-re_rc4-reverse/meta.toml) | Crypto | 250.0 | fr33tcat@163.com | 猜猜我是Cypto，还是Reverse吧！ |
 | [xzmu_anime_club](Crypto/xzmu_anime_club/meta.toml) | Crypto | 50.0 | hakureiyukari01@gmail.com | 这里是西藏民族大学动漫社，欢迎来玩 |
 | [caesar](Crypto/caesar/meta.toml) | Crypto | 50.0 | myx2727461997@gmail.com | 凯撒大帝的秘密信息！  密文：iordwfwi{fdhvdu_flskhu_lv_hdvb}  提示1：这是最古老的加密方法之一 提示2：凯撒密码的位移量通常在 1-25 之间 提示3：试试往回移动 3 位 |
 | [matrix_rsa](Crypto/matrix_rsa/meta.toml) | Crypto | 1000.0 | myx2727461997@gmail.com | 你告诉我什么叫矩阵RSA？ |
