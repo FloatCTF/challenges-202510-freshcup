@@ -58,6 +58,7 @@ if __name__ == "__main__":
     response = requests.post(
         f"{ADMIN_API_ENDPOINT}/session",
         json={"username": ADMIN_USERNAME, "password": ADMIN_PASSWORD},
+        verify=False
     )
     response.raise_for_status()
 
@@ -68,6 +69,7 @@ if __name__ == "__main__":
         f"{ADMIN_API_ENDPOINT}/challenges/import",
         headers={"Authorization": f"Bearer {token}"},
         files={"challenge_list_zip": open(target_path, "rb")},
+        verify=False
     )
     response.raise_for_status()
     resp_json = response.json()

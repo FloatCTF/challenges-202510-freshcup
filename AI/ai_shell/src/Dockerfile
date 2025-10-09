@@ -27,4 +27,4 @@ COPY flag.sh /flag.sh
 RUN chmod +x /flag.sh
 EXPOSE 80
 # 启动时同时运行 Ollama 服务 和 Python 脚本
-CMD ["sh", "-c", "/flag.sh && ollama serve & python /app/main.py"]
+CMD ["/bin/sh", "-c", "/flag.sh && ollama serve & python /app/main.py"]

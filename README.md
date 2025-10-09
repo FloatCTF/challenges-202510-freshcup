@@ -283,9 +283,12 @@ port = "80/tcp"
 ```dockerfile
 FROM php:5-apache
 COPY index.php /var/www/html/
+# flag替换脚本 固定， 剔除\r
 COPY flag.sh /flag.sh
-RUN chmod +x /flag.sh
-CMD ["sh", "-c", "/flag.sh && apache2-foreground"]
+RUN [ -f /flag.sh ] && tr -d '\r' < /flag.sh | tee /flag.sh >/dev/null && chmod +x /flag.sh
+# flag replacer script end
+# 在容器启动时执行 flag 替换，然后启动 nginx
+CMD ["/bin/sh", "-c", "/flag.sh && nginx -g 'daemon off;'"]
 ```
 
 **flag.sh 示例**：
