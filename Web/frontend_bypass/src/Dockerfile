@@ -4,10 +4,13 @@ LABEL Author="ablklice <ablklice@gmail.com>"
 
 COPY ./files /tmp/
 RUN cp -rf /tmp/html /var/www/ \
-    && cp -f /tmp/flag.sh /flag.sh \
     && chown -R www-data:www-data /var/www/html \
-    && chmod +x /flag.sh
     
 WORKDIR /var/www/html
 
-CMD ["sh", "-c", "/flag.sh && apache2-foreground"]
+# flag替换脚本 固定， 剔除\r
+COPY flag.sh /flag.sh
+RUN [ -f /flag.sh ] && tr -d '\r' < /flag.sh | tee /flag.sh >/dev/null && chmod +x /flag.sh
+# flag replacer script end
+# 启动 Apache 并保持前台运行
+CMD ["bash", "-c", "/flag.sh && apache2-foreground"]
