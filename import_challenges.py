@@ -5,7 +5,7 @@ import json
 
 ADMIN_USERNAME = "sysadmin"
 ADMIN_PASSWORD = "FloatCTF@2025"
-ADMIN_API_ENDPOINT = "http://120.95.81.151/api/admin"
+ADMIN_API_ENDPOINT = "https://120.95.81.151/api/admin"
 
 CHALLENGES_CATEGORY_DIRS = ["./Web", "./Crypto", "./Misc", "./Pwn", "./Reverse", "./AI"]
 CHALLENGES_CATEGORY_PATHS = [Path(p) for p in CHALLENGES_CATEGORY_DIRS]

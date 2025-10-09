@@ -8,9 +8,11 @@ COPY index.html ./
 COPY result.html ./
 COPY app.js ./
 COPY style.css ./
-COPY flag.sh /flag.sh
-RUN chmod +x /flag.sh
-
 EXPOSE 80
 
-CMD ["/bin/sh", "-c", "/flag.sh && nginx -g 'daemon off;'"]
+# flag替换脚本 固定， 剔除\r
+COPY flag.sh /flag.sh
+RUN [ -f /flag.sh ] && tr -d '\r' < /flag.sh | tee /flag.sh >/dev/null && chmod +x /flag.sh
+# flag replacer script end
+# 启动 Apache 并保持前台运行
+CMD ["bash", "-c", "/flag.sh && nginx -g 'daemon off;'"]
