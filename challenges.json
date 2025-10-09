@@ -1,157 +1,157 @@
 [
   {
     "name": "AI_shell",
-    "id": "338dda9e-b3a6-462c-8c88-cc20855ba40c",
+    "id": "adbcdec3-d39e-4380-8d6f-4894b8732638",
     "category": "AI",
     "description": "这个执行命令小模型，会听你的话吗？"
   },
   {
     "name": "backdoor",
-    "id": "8f574b6a-fc11-4746-a4fc-f98d9cecd4e1",
+    "id": "87d4e63a-b154-4aca-98bc-10dd1869fa70",
     "category": "Web",
     "description": "php backdoor"
   },
   {
     "name": "base64",
-    "id": "56d7f62c-971c-4eda-8e01-fdee6dde3800",
+    "id": "3068d4c5-1a0a-4277-8220-a7f95a5cf686",
     "category": "Crypto",
     "description": "ZmxhZ3tiMWQxZmNmNy01NzQyLTQ0OTctODYwOC1iZGU1NDlmMWQ1MmV9"
   },
   {
     "name": "caesar",
-    "id": "bbd843d5-b9a9-48b8-a0b0-7d6b83148d3c",
+    "id": "e818375b-9871-44f1-afc4-fec3ff4b4388",
     "category": "Crypto",
     "description": "凯撒大帝的秘密信息！\r\n\r\n密文：iordwfwi{fdhvdu_flskhu_lv_hdvb}\r\n\r\n提示1：这是最古老的加密方法之一\r\n提示2：凯撒密码的位移量通常在 1-25 之间\r\n提示3：试试往回移动 3 位\r\n"
   },
   {
     "name": "Cirno's perfect math class",
-    "id": "70e64265-4607-4b77-8bd5-3bf808d7b0da",
+    "id": "735de67b-ad8e-463a-b100-f51e138a00b9",
     "category": "Misc",
     "description": "琪露诺发现幻想乡巴士里有base编码"
   },
   {
     "name": "comment",
-    "id": "b611717a-985c-4a8f-bc9b-599d98c2c644",
+    "id": "d3c90f6f-f082-46a9-b914-5dd835fb3f3e",
     "category": "Web",
     "description": "注释里面有什么？"
   },
   {
     "name": "cookie",
-    "id": "6ab8bdbf-cc6a-4894-9edc-0ac92ce01270",
+    "id": "a13150ec-8587-48ec-9ecd-d17858dedd75",
     "category": "Web",
     "description": "想成为管理员吗？也许你需要一个特殊的饼干！\r\n"
   },
   {
     "name": "Crypto-re_rc4-reverse",
-    "id": "52780a39-a44a-4fa0-a4d1-9f8197619e8f",
+    "id": "fbd50d47-be24-4a69-b553-a7d3e44d1947",
     "category": "Crypto",
     "description": "猜猜我是Cypto，还是Reverse吧！"
   },
   {
     "name": "ctf_start",
-    "id": "02865886-7f2d-40a7-9916-476f29787f38",
+    "id": "f45c3b98-6e39-435a-9f70-c1d75a7f0d48",
     "category": "Misc",
     "description": "这图片好像缺点什么"
   },
   {
     "name": "dir_enum",
-    "id": "606ca588-22b2-4504-945a-d9566bab0ccb",
+    "id": "708dd091-3e05-4dfd-b313-7f765ce88ec3",
     "category": "Web",
     "description": "想必你一定知道什么是目录扫描吧"
   },
   {
     "name": "easy_reverse",
-    "id": "52f221bb-af14-495c-a1ab-ddf04d0bebfa",
+    "id": "50e682f4-16d9-4d70-a098-5fac7062580e",
     "category": "Reverse",
     "description": "使用tea算法进行解密,答案使用flag{}进行包裹"
   },
   {
     "name": "Flag_in_the_model",
-    "id": "ddeaade5-547e-4c2f-8c3f-bc0d2b254d03",
+    "id": "9b342089-568b-480b-bfbf-34dac5ee571c",
     "category": "Misc",
     "description": ".pt？这是什么后缀名？"
   },
   {
     "name": "FloatCTF-qidong",
-    "id": "f1a87cbe-9eb6-4547-9b88-96904fc45dd5",
+    "id": "fb99b7a5-b0b6-4846-9f91-4d9110c05615",
     "category": "Web",
     "description": "大喊FloatCTF启动来获得flag吧"
   },
   {
     "name": "frontend_bypass",
-    "id": "fab41838-543d-44e4-96d4-c6c37a57bbce",
+    "id": "9bd6a16b-0365-4a66-8834-17b258de0d9b",
     "category": "Web",
     "description": "前端绕过"
   },
   {
     "name": "Hajimi",
-    "id": "80e26827-0f3a-4c99-ae02-74669cca0152",
+    "id": "6941744e-d099-4089-885a-50f490678fa9",
     "category": "Pwn",
     "description": "我是耄耋，我还活着，拿nc拯救我吧，哈！！！"
   },
   {
     "name": "komachi's book",
-    "id": "3b134d76-c88a-4d33-b529-9dec354dea5e",
+    "id": "1b48b003-e485-4ace-93ed-315d26838481",
     "category": "Misc",
     "description": "小町摸鱼时会写小说,她可能会将小说变成zip包来存储"
   },
   {
     "name": "learn_http",
-    "id": "bd53807e-37fe-4f13-b375-e6eea49ffaef",
+    "id": "c571160b-68f1-4e45-9970-eb864eba061f",
     "category": "Web",
     "description": "HTTP Protocol"
   },
   {
     "name": "matrix_rsa",
-    "id": "1a695dfd-091d-4d58-8798-2c72b5a5b2c4",
+    "id": "6a3abd8c-25b4-422a-bc22-47b014d0bf2d",
     "category": "Crypto",
     "description": "你告诉我什么叫矩阵RSA？"
   },
   {
     "name": "miku_flag",
-    "id": "8a7a2f48-bc0b-44df-88fc-caf6a5b61a79",
+    "id": "74a8a7e1-4886-42e1-af04-efb33e7dbf2c",
     "category": "Misc",
     "description": "这图片好像缺点什么"
   },
   {
     "name": "Orin's pack",
-    "id": "0cc77bc3-6975-44b3-931c-3e49a2e7e867",
+    "id": "e68f9ecb-59fc-4468-a1bb-d674f349ce96",
     "category": "Misc",
     "description": "阿燐在她的猫车中找到一个神秘压缩包"
   },
   {
     "name": "png",
-    "id": "96674df8-23ff-490d-9d49-936953a01243",
+    "id": "163d24a8-3c2d-4a87-abd7-08769220586d",
     "category": "Misc",
     "description": "图片里面有什么"
   },
   {
     "name": "robots",
-    "id": "9ada2e0f-3c1a-444e-9a1f-837b1fc12c06",
+    "id": "cd911af5-1e98-4380-be2e-e34287d594dd",
     "category": "Web",
     "description": "听说搜索引擎的爬虫都会先看 robots.txt 文件？"
   },
   {
     "name": "strings_attached1",
-    "id": "0d8eaa75-6e32-4618-bf13-c3e7113d9454",
+    "id": "359cb15f-bb87-4951-9b55-b221d8224534",
     "category": "Reverse",
     "description": "找到了一串字符串，要用什么算法解密呢"
   },
   {
     "name": "strings_attached2",
-    "id": "ff0deb6e-55eb-4dff-b8dc-061893c08afe",
+    "id": "f3f2e8a8-ed67-49d2-a2a6-9c3516c34136",
     "category": "Reverse",
     "description": "和某一道题加密算法一样，但好像又有一些不同"
   },
   {
     "name": "xzmu_anime_club",
-    "id": "07ab44c3-72f6-46ca-b497-63c3cdf231dd",
+    "id": "c2772d68-250f-40c5-836b-cc9939303ffa",
     "category": "Crypto",
     "description": "这里是西藏民族大学动漫社，欢迎来玩"
   },
   {
     "name": "基米我们的感情好像叮咚鸡",
-    "id": "4ca9887c-2d94-4547-895b-6965cb27a94a",
+    "id": "3d7b2d48-1c6d-4ca6-8183-85ec945857d7",
     "category": "Misc",
     "description": "艾米丽带着对故乡的眷恋，踏上了一场寻根之旅。她留下一封寄语，藏在了一个看似普通的Word文档中，标题是“基米我们的感情好像叮咚鸡”。然而，细心的你发现，这份寄语的字里行间似乎隐藏着不可告人的秘密！可是“雪”飘进双眼，艾米丽的秘密在等着你层层揭开。你能解开所有谜团，找到完整的flag，唤醒那份关于故乡与友谊的温暖记忆吗？"
   }
