@@ -3,8 +3,7 @@ FROM php:5-apache-jessie
 LABEL Author="ablklice <ablklice@gmail.com>"
 
 COPY ./files /tmp/
-RUN cp -rf /tmp/html /var/www/ \
-    && chown -R www-data:www-data /var/www/html \
+RUN cp -rf /tmp/html /var/www/ && chown -R www-data:www-data /var/www/html 
     
 WORKDIR /var/www/html
 
