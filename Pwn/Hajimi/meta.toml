@@ -10,5 +10,6 @@ env_var = "FLAG"
 
 [docker]
 image_tag = "hajimi"
-port = "1377/tcp"
+port = "1337/tcp"
 is_nc = true
+
