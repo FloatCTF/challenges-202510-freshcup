@@ -5,9 +5,9 @@
 | AI | 1 |
 | Crypto | 5 |
 | Misc | 8 |
-| Pwn | 1 |
+| Pwn | 2 |
 | Reverse | 3 |
-| Web | 8 |
+| Web | 9 |
 ## Challenges
 | 题目名称 | 分类 | 分值 | 作者 | 描述 |
 |---------|------|------|------|------|
@@ -25,11 +25,13 @@
 | [Orin&#39;s pack](Misc/Orin%27s%20pack/meta.toml) | Misc | 50.0 | hakureiyukari01@gmail.com | 阿燐在她的猫车中找到一个神秘压缩包 |
 | [komachi&#39;s book](Misc/komachi%27s%20book/meta.toml) | Misc | 50.0 | hakureiyukari01@gmail.com | 小町摸鱼时会写小说,她可能会将小说变成zip包来存储 |
 | [Flag_in_the_model](Misc/Flag_in_the_model/meta.toml) | Misc | 100.0 | myx2727461997@gmail.com | .pt？这是什么后缀名？ |
+| [ret2text](Pwn/ret2text/meta.toml) | Pwn | 100.0 | fb0sh@outlook.com | return to text segment |
 | [Hajimi](Pwn/Hajimi/meta.toml) | Pwn | 50.0 | myx2727461997@gmail.com | 我是耄耋，我还活着，拿nc拯救我吧，哈！！！ |
 | [easy_reverse](Reverse/easy_reverse/meta.toml) | Reverse | 200.0 | ablklice@gmail.com | 使用tea算法进行解密,答案使用flag{}进行包裹 |
 | [strings_attached1](Reverse/strings_attached1/meta.toml) | Reverse | 100.0 | ablklice@gmail.com | 找到了一串字符串，要用什么算法解密呢 |
 | [strings_attached2](Reverse/strings_attached2/meta.toml) | Reverse | 150.0 | ablklice@gmail.com | 和某一道题加密算法一样，但好像又有一些不同 |
 | [frontend_bypass](Web/frontend_bypass/meta.toml) | Web | 50.0 | ablklice@gmail.com | 前端绕过 |
+| [php_file](Web/php_file/meta.toml) | Web | 100.0 | ablklice@gmail.com | file伪协议 |
 | [backdoor](Web/backdoor/meta.toml) | Web | 200.0 | fb0sh@outlook.com | php backdoor |
 | [comment](Web/comment/meta.toml) | Web | 100.0 | fb0sh@outlook.com | 注释里面有什么？ |
 | [dir_enum](Web/dir_enum/meta.toml) | Web | 200.0 | fb0sh@outlook.com | 想必你一定知道什么是目录扫描吧 |
